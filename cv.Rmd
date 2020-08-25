@@ -1,7 +1,7 @@
 ---
-title: "Nick Strayer's CV"
+title: "Duncan Gates' CV"
 subtitle: "A Visual Datascientist"
-author: Nick Strayer
+author: Duncan Gates
 date: "`r Sys.Date()`"
 params:
   pdf_mode:
@@ -95,7 +95,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Duncan Gates {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
