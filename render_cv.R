@@ -19,3 +19,15 @@ rmarkdown::render("cv.rmd",
 # Convert to PDF using Pagedown
 pagedown::chrome_print(input = tmp_html_cv_loc,
                        output = "cv.pdf")
+
+# Knit resume PDF version to temp html location
+tmp_html_cv_loc <- fs::file_temp(ext = ".html")
+rmarkdown::render("cv.rmd",
+                  params = list(pdf_mode = TRUE),
+                  output_file = tmp_html_cv_loc)
+
+# Convert to PDF w/ Pagedown
+
+
+
+
