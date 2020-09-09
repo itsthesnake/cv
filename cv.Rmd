@@ -1,12 +1,9 @@
 ---
-title: "Duncan Gates' CV"
-subtitle: "A Visual Data Scientist"
+title: "Duncan Gates's CV"
 author: Duncan Gates
 date: "`r Sys.Date()`"
 params:
   pdf_mode:
-    value: false
-  cache_data:
     value: true
 output:
   pagedown::html_resume:
@@ -16,7 +13,7 @@ output:
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
-  results = 'asis', 
+  results='asis', 
   echo = FALSE
 )
 
@@ -26,9 +23,9 @@ source("cv_printing_functions.r")
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
   data_location = "https://docs.google.com/spreadsheets/d/1-Q9sgX068b-hk8uvw15_sjtrzla7l_2pGGbW2HpJH4U",  
-  pdf_mode = params$pdf_mode,
-  cache_data = params$cache_data
+  pdf_mode = params$pdf_mode
 )
+
 ```
 
 
@@ -204,3 +201,4 @@ CV %<>% print_section('academic_articles')
 ```{r}
 CV %<>% print_links()
 ```
+

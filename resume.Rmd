@@ -1,5 +1,5 @@
 ---
-title: Duncan Gates' Resume"
+title: "Duncan Gates' Resume"
 author: Duncan Gates
 date: "`r Sys.Date()`"
 output:
@@ -49,7 +49,7 @@ links <- c()
 # text output and the other loads up our data from either googlesheets or csvs
 
 # Functions for building sections from CSV data
-source('parsing_functions.R') 
+# source('parsing_functions.R')
 
 # Load data for CV/Resume
 source('gather_data.R')
