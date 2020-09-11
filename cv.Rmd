@@ -54,7 +54,7 @@ datadrivencv::build_network_logo(CV$entries_data)
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links at _duncangates.me/cv/_")
+  cat("View this CV online with links at [_duncangates.me/cv/_](duncangates.me/cv)")
 } else {
   cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/itsthesnake/cv/raw/master/cv.pdf)")
 }
@@ -118,12 +118,25 @@ Research Experience {data-icon=laptop}
 CV %<>% print_section('research_positions')
 ```
 
-
+\newpage
 
 Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ::: aside
+
+### LANGUAGES
+
+**English** - Native
+
+**Spanish** - Proficient
+
+**French** - Beginner
+
+
+<br><br>
+
+
 ```{r}
 CV %<>% print_text_block('industy_experience_aside')
 ```
@@ -187,6 +200,12 @@ Selected Press (By)  {data-icon=newspaper}
 CV %<>% print_section('by_me_press')
 ```
 
+::: aside
+
+**Internship Visualization Sample**
+![Caption](/Users/dunk/DSPG/Plots/Plot14.png)
+
+:::
 
 
 Selected Publications, Posters, and Talks {data-icon=book}
@@ -196,7 +215,11 @@ Selected Publications, Posters, and Talks {data-icon=book}
 CV %<>% print_section('academic_articles')
 ```
 
+::: aside
+**Thesis Sample**
+![Caption](/Users/dunk/Thesis/Plots/2019WealthDist.png)
 
+:::
 
 ```{r}
 CV %<>% print_links()
