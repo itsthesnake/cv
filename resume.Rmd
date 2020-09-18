@@ -86,8 +86,6 @@ contact_info %>%
   glue_data("- <i class='fa fa-{icon}'></i> {contact}")
 ```
 
-For more information, please contact me via email.
-
 
 Language Skills {#skills}
 --------------------------------------------------------------------------------
@@ -104,13 +102,13 @@ Projects {#open-source}
 All projects available at [github.com/itsthesnake](github.com/itsthesnake)
 
 
-- `Spotify Machine Learning`: Algorithmic generation of music with markov chains
+`Spotify Machine Learning`: Algorithmic music recommendation using markov chains.
 
-- `Tinder Romance Algorithm`: Propietary analytics to determine optimal dating app strategies
+`Tinder Romance Algorithm`: K-means clustering to determine optimal dating app profiles.
 
-- `Avocado Price Forecasting`: Pattern Recognition Analysis
+`Avocado Price Forecasting 2021`: Forecasting w/ ARIMA, modelling, and time series analysis.
 
-- `Wealth and Happiness`: Exploring the relationship of wealth and happiness
+`Wealth and Happiness`: Econometric exploration w/ linear, and logistic regression.
 
 
 
@@ -155,7 +153,7 @@ position_data %>% print_section('positions')
 
 
 
-Selected Certifications and Honors {data-icon=newspaper}
+Selected Certifications, Classes, and Honors {data-icon=newspaper}
 --------------------------------------------------------------------------------
 
 ```{r}
