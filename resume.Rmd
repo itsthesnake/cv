@@ -75,15 +75,14 @@ position_data <- position_data %>%
 Aside
 ================================================================================
 
-
-![logo](logo.png){width=100%}
+![](/Users/dunk/Github/cv/datascience.png)
 
 Contact {#contact}
 --------------------------------------------------------------------------------
 
 ```{r}
 contact_info %>% 
-  glue_data("- <i class='fa fa-{icon}'></i> {contact}")
+  glue_data("- <i class='fa fa-{icon}'></i> {contact}") # Note to change above so it has standardized file sourcing
 ```
 
 
@@ -99,17 +98,16 @@ build_skill_bars(skills)
 Projects {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at [github.com/itsthesnake](github.com/itsthesnake)
+All projects available at [github.com/dungates](github.com/dungates)
 
+
+`Hot Hand Simulation`: Monte Carlo Simulation to determine independence of streaky shooting.
 
 `Spotify Machine Learning`: Algorithmic music recommendation using markov chains.
 
 `Tinder Romance Algorithm`: K-means clustering to determine optimal dating app profiles.
 
-`Avocado Price Forecasting 2021`: Forecasting w/ ARIMA, modelling, and time series analysis.
-
-`Wealth and Happiness`: Econometric exploration w/ linear, and logistic regression.
-
+`Wealth and Happiness`: Econometric exploration of GSS data w/ linear and logistic regression.
 
 
 Disclaimer {#disclaimer}
@@ -117,7 +115,7 @@ Disclaimer {#disclaimer}
 
 Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
 
-Source code: [github.com/itsthesnake/cv](https://github.com/itsthesnake/cv).
+Source code: [github.com/dungates/cv](https://github.com/dungates/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -128,6 +126,7 @@ Main
 
 Duncan Gates {#title}
 --------------------------------------------------------------------------------
+
 
 ```{r}
 print_text_block(text_blocks, 'intro')
