@@ -75,7 +75,7 @@ position_data <- position_data %>%
 Aside
 ================================================================================
 
-![](/Users/dunk/Github/cv/datascience.png)
+![](datascience.png)
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -98,7 +98,7 @@ build_skill_bars(skills)
 Projects {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at [github.com/dungates](github.com/dungates)
+All projects available at [github.com/dungates](https://github.com/dungates)
 
 
 `Hot Hand Simulation`: Monte Carlo Simulation to determine independence of streaky shooting.
